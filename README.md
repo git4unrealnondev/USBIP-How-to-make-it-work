@@ -30,4 +30,4 @@ sudo usbip bind -busid=#-#.#
   See install instructions. :D
 sudo modprobe usbip-core
 sudo modprobe vhci-hcd
-sudo usbip bind -r IPONLYOFSERVER -b #-#.#
+sudo usbip attach -r IPONLYOFSERVER -b #-#.#
