@@ -16,7 +16,7 @@ sudo modprobe usbip-host
 usbip --debug list -l
 
   Getting User Access to usb drivers (May be unsafe, I don't know)
-sudo chown USER:GROUP -R /sys/bus/usb/drivers/usb/
+sudo chown USER:GROUP -R /sys/bus/usb/drivers/usb/                                                                  
 sudo chmod 777 -R /sys/bus/usb/drivers/usb/
 sudo chown USER:GROUP -R /sys/bus/usb/drivers/usbip-host/
 sudo chmod 777 -R /sys/bus/usb/drivers/usbip-host/
